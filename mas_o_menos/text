@@ -1,0 +1,59 @@
+
+Write a script named mas_o_menos.py.
+
+The goal of this exercice is to create a mini game where you need to guess a number. For the purpose of the exercice, the result to guess will be specified on the standard entry (though obviously that makes the guessing part a lot easier...!).
+
+The player has 10 tries to guess the number.
+
+If the player guesses right, you will display Congrats ! and quit.
+
+If the player guesses a number smaller than the result :
+
+    if the difference is above 50 you will display It's way more.
+    if the difference is 50 or less you will display It's more.
+
+If the player guesses a number bigger than the result :
+
+    if the difference is above 50 you will display It's way less.
+    if the difference is 50 or less you will display It's less.
+
+If the player doesn't find the result after 10 tries, you will display You lose :(.
+
+Take a look at the example, you need to reproduce the exact same output to make the Sentinel happy!
+
+$> python3 mas_o_menos.py
+What is the result? 100
+OK, let's begin
+
+Your guess? (10 left) 3
+It's way more
+Your guess? (9 left) 59
+It's more
+Your guess? (8 left) 200
+It's way less
+Your guess? (7 left) 180
+It's way less
+Your guess? (6 left) 140
+It's less
+Your guess? (Half way done) 130
+It's less
+Your guess? (4 left) 120
+It's less
+Your guess? (3 left) 90
+It's more
+Your guess? (2 left) 95
+It's more
+Your guess? (1 left) 98
+It's more
+Your guess? (Last guess) 99
+It's more
+You lose :(
+$> python3 mas_o_menos.py
+What is the result? 100
+OK, let's begin
+
+Your guess? (10 left) 100
+Congrats !
+$>
+
+

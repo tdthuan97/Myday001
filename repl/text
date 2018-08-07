@@ -1,0 +1,44 @@
+
+
+Write a script named repl.py.
+
+In this exercice, you will have to write a small repl - that is, a read-eval-print-loop. You read the standard entry, do something based on what you just read, print the output if needed, and loop back at the beginning to wait for another entry.
+
+Here are the different actions possible. You have to follow the same order to evaluate which action should be taken:
+
+    if the string you read is 'quit', you quit
+    if the length of string you read is 6, display My length is 6
+    if the first letter of the string is a, e, i, o or u, display 4 times the 2nde, 3rd and 4th letter of the string (see the example)
+    if the string is one of "ls", "cat", "rev" or "pwd", display I know the command XXX !! (replace XXX by the name of the command)
+    if the string starts with a 0 and doesn't end with a 9, display all the numbers present in the string
+    else do nothing
+
+
+$>python3 repl.py
+repl> hello!
+My length is 6
+repl> abcdefg
+bcd
+bcd
+bcd
+bcd
+repl> cat
+I know the command cat !!
+repl> 0 I have several numbers 1 2  3 4
+0
+1
+2
+3
+4
+repl> abcdef
+My length is 6
+bcd
+bcd
+bcd
+bcd
+repl> 0 I finish with 9
+repl> pouette
+repl> quit
+$>
+
+

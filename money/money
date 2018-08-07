@@ -1,0 +1,23 @@
+You have done your shopping and it's time to checkout. You want to give as few banknotes and coins as possible to pay your bill.
+
+Payment is made in Japanese yen, and you can use any official banknotes and coins.
+
+You have to look at the example below to figure out the edge cases (what happens when the bill is 0? When it's negative?)
+
+Your program will be called money.py.
+
+$ python3 money.py 
+What's the bill ? 3451
+1 2000 banknote
+1 1000 banknote
+4 100 coin
+1 50 coin
+1 1 coin
+$ python3 money.py 
+What's the bill ? 0
+Oh, it was free !
+$ python3 money.py 
+What's the bill ? -98
+Well, it's you who owes me money then.
+
+

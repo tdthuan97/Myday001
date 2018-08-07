@@ -1,0 +1,44 @@
+You have to write a script squares.py that asks for a number n and then prints n squares.
+
+$ python3 squares.py
+How many squares do you need?
+1
+###
+# #
+###
+
+$ python3 squares.py
+How many squares do you need?
+2
+#######
+#     #
+# ### #
+# # # #
+# ### #
+#     #
+#######
+
+$ python3 squares.py
+How many squares do you need?
+5
+###################
+#                 #
+# ############### #
+# #             # #
+# # ########### # #
+# # #         # # #
+# # # ####### # # #
+# # # #     # # # #
+# # # # ### # # # #
+# # # # # # # # # #
+# # # # ### # # # #
+# # # #     # # # #
+# # # ####### # # #
+# # #         # # #
+# # ########### # #
+# #             # #
+# ############### #
+#                 #
+###################
+
+
